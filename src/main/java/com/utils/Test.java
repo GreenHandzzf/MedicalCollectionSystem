@@ -11,7 +11,7 @@ public class Test {
     UserService userService = (UserService) ac.getBean("userService");
 
     public void test(){
-        User user = new User("lw","1");
+        User user = new User("lisi","1");
         System.out.println(userService.login(user).getName());
     }
 
